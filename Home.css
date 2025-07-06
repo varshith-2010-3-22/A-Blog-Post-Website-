@@ -1,0 +1,114 @@
+
+p{
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 17px;
+  color: #4C4A48;
+  padding-bottom: 20px;
+  
+}
+li{
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 17px;
+  color: #4C4A48;
+   padding-bottom: 20px;
+}
+h1{
+     font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     color: #3A5A40;
+}
+h2{
+        font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+      color: #3A5A40;
+}
+h3{
+    color: #D97746;
+        font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+}
+body{
+    background-color: #F5F5F5;
+    height: 100%;
+}
+.main-heading{
+    text-align: left;
+    padding-left: 30px;
+    padding-left: 40px;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading{
+    position: static;
+  font-size: 26px;
+  padding-bottom: 0%;
+}
+.heading-1{
+    padding-top: 0%;
+   padding-left: 80px;
+    height: 50px;
+    font-size: 21px;
+
+}
+.note{
+    text-align: center;
+    font-size: 18px;
+    padding: 0%;
+    margin: 0%;
+}
+.content-area{
+    
+    width: 60%;
+    height: 100%;
+    padding: 15px;
+    
+    border-radius: 10px;
+    
+    position: relative;
+    top: 5vh;
+    left: 28vh;
+    justify-content: center;
+    text-align: left;
+}
+.content-area h2{
+    text-align: center;
+    font-size: 32px;
+}
+.content-heading{
+    list-style: none;
+   
+}
+.sp{
+    font-weight: bold;
+    color:  #A3B18A;
+}
+li{
+   list-style-type: disc;
+ 
+}
+.about-auht{
+      position:absolute;
+      left: 20vh;
+      margin-top: 20vh;
+     
+    height: auto;
+    width: 80vh;
+    
+
+}
+
+.span-2{
+    font-style: italic;
+    color:cadetblue;
+}
