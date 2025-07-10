@@ -112,3 +112,91 @@ li{
     font-style: italic;
     color:cadetblue;
 }
+
+/* ========================================================== */
+/*               TABLET STYLES (768px and down)               */
+/* ========================================================== */
+@media (max-width: 768px) {
+    .main-heading {
+        padding-left: 20px; /* Reduce side padding */
+        padding-right: 20px;
+    }
+
+    .heading-1 {
+        padding-left: 0;     /* Remove the large indent on the subtitle */
+        text-align: center;  /* Center it to match the main title */
+        height: auto;        /* Let height be determined by content */
+    }
+
+    .note {
+        padding: 0 20px; /* Add padding so it doesn't touch the edges */
+    }
+
+    /* This is the most important fix: Centering the main content */
+    .content-area {
+        position: static;    /* Reset the positioning context */
+        width: 90%;          /* Make it take up more screen width */
+        margin: 40px auto;   /* Center it horizontally and add vertical space */
+        left: auto;          /* Reset the 'left' property from your original CSS */
+        top: auto;           /* Reset the 'top' property */
+        padding: 25px;
+    }
+    
+    /* This is the second most important fix: Centering the author box */
+    .about-auht {
+        position: static;   /* Reset absolute positioning */
+        width: 90%;         /* Adjust width to be flexible */
+        height: auto;       /* Let height be automatic */
+        left: auto;         /* Reset 'left' property */
+        margin: 60px auto;  /* Center the block with top/bottom margin */
+    }
+
+    /* Adjust heading sizes for better balance on tablets */
+    h1 {
+        font-size: 2.5rem; /* Using rem for better scalability */
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+
+/* ========================================================== */
+/*               MOBILE STYLES (480px and down)               */
+/* ========================================================== */
+@media (max-width: 480px) {
+    /* Reduce font sizes for readability on small phones */
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    p, li {
+        font-size: 16px;
+        line-height: 1.6; /* Adjust line-height for small text */
+    }
+    .content-area h2{
+        font-size: 1.8rem;
+    }
+
+    .main-heading {
+        padding-left: 15px; /* Further reduce padding for small screens */
+        padding-right: 15px;
+    }
+    
+    /* Let the content blocks have side margin instead of a fixed width */
+    .content-area, .about-auht {
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px;
+    }
+
+    .about-auht {
+        margin-top: 40px; /* Reduce space between main content and author box */
+    }
+}
