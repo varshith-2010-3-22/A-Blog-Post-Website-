@@ -68,7 +68,7 @@ body{
     font-size: 21px;
 
 }
- button{
+ .button{
     position: fixed;
     top: 35px;
     right: 100px;
