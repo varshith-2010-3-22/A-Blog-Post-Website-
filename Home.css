@@ -68,6 +68,17 @@ body{
     font-size: 21px;
 
 }
+ button{
+    position: fixed;
+    top: 35px;
+    right: 100px;
+    background-color:#D97746;
+    color: #3A5A40;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+
+ }
 .note{
     text-align: center;
     font-size: 18px;
