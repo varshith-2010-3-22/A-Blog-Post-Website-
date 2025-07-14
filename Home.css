@@ -72,13 +72,10 @@ body{
     position: fixed;
     top: 35px;
     right: 100px;
-    background-color:#D97746;
     color: #3A5A40;
-    border-radius: 20px;
-    height: 40px;
-    width: 100px;
+     font-size: 22px;
      text-align:center;
-
+    text-decoration:none;
  }
 .note{
     text-align: center;
