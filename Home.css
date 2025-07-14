@@ -57,7 +57,7 @@ body{
     gap: 10px;
 }
 .heading{
-    position: static;
+    position:fixed;
   font-size: 26px;
   padding-bottom: 0%;
 }
@@ -69,7 +69,7 @@ body{
 
 }
  .button{
-    position: fixed;
+    position: static;
     top: 39px;
     right: 100px;
     color: #3A5A40;
