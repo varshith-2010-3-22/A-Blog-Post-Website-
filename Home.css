@@ -69,12 +69,12 @@ body{
 
 }
  .button{
-    position: static;
+    position:fixed;
     top: 39px;
     right: 100px;
     color: #3A5A40;
      font-size: 22px;
-     text-align:center;
+    
     text-decoration:none;
  }
 .note{
