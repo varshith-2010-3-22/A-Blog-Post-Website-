@@ -57,7 +57,7 @@ body{
     gap: 10px;
 }
 .heading{
-    position:fixed;
+    position:static;
   font-size: 26px;
   padding-bottom: 0%;
 }
